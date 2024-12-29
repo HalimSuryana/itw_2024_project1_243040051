@@ -1,0 +1,76 @@
+@media (max-width: 990px) {
+  /* navigation */
+  .nav .nav-list {
+    width: 35%;
+  }
+
+  /* project */
+  .project .project-list div video {
+    width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* about */
+  .photo-about img {
+    display: none;
+  }
+
+  .ket-sosmed {
+    width: 300px;
+    text-align: center;
+  }
+  /* skill */
+  .container1 {
+    flex-direction: column;
+  }
+  .h4 {
+    align-items: center;
+  }
+  .exp-card img {
+    display: flex;
+   align-items: center;
+  }
+  .skill .exp-card img {
+    display: flex;
+align-items: center;
+    width: 100px;
+  }
+
+  /* project */
+  .project .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project .project-list div {
+    margin-bottom: 100px;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  .mobile-video {
+    /* display: block; */
+    flex-direction: column;
+  }
+
+  .desktop-video {
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* contact */
+.contact form {
+  max-width: 320px;
+}
+
+/* footer */
+.footer {
+  padding-bottom: 25px;
+}
